@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Main Style -->
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <!-- OpenTip Style -->
+        <link rel="stylesheet" href="css/opentip.min.css" type="text/css" />
+        <!--[if lte IE 8]><script type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+        <!-- OpenTip -->
+        <script type="text/javascript" src="js/opentip.min.js"></script>
+        <script type="text/javascript" src="js/adapter-native.min.js"></script>
+        <title>
+          {% if page.title %}
+            {{ page.title }}
+          {% else %}
+            Online Banking Walkthrough
+          {% endif %}
+        </title>
+    </head>
+    <body>
+      <div id="container">
+      <p class="heading">Hover over image below to show quick tips and information</p>
+        <div id="content">
+            {{ content }}
+        </div>
+        <div id="description">
+            {% if page.description %}
+                {{ page.description }}
+            {% endif %}                
+        </div>
+    </div>
+  </body>
+</html>
+
