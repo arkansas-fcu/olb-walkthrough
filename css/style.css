@@ -95,3 +95,30 @@ img {
     padding: 20px;
     text-align: center;
 }
+
+.backlink {
+    width: 900px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align:top;
+}
+
+.backlink a{
+    font-family: "Calibri", arial, sans-serif;
+    font-size: 18pt;
+    font-style: bold;
+    text-decoration: none;
+    color: #222;
+    vertical-align:top;
+}
+.backlink a:hover{
+    color: rgb(48, 127, 226);
+    vertical-align:top;
+}
+
+.backlink-img {
+    height: 20px;
+    display: inline;
+    margin-top:3px;
+}
